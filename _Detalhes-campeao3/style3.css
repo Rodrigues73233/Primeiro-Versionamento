@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+body {
+  background-color: rgb(4, 0, 53);
+}
+
+h2 {
+  text-transform: uppercase;
+  font-style: italic;
+  color: wheat;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Beaufort for LOL';
+  font-style: italic;
+  color: wheat;
+  text-align: center;
+  display: block;
+  font-size: 70px;
+}
+
+.imagem-principal {
+  margin: 50px;
+}
+
+h3 {
+  display: block;
+  padding-left: 20px;
+  color: wheat;
+  margin-bottom: 10px;
+}
+
+p {
+  display: block;
+  padding-left: 20px;
+  color: rgb(255, 193, 22);
+  margin-bottom: 10px;
+}
+
+ul {
+  display: inline-block;
+}
+
+strong {
+  color: red;
+}
+
+li {
+  color: wheat;
+  width: 800px;
+  padding-bottom: 15px;
+}
+
+.maestria {
+  display: inline-block;
+  width: 150px;
+}
+
+.titulo-descricao {
+  margin-top: 20px;
+}
+
+.descricao {
+  display: inline-block;
+  margin-right: 20px;
+  width: 850px;
+}

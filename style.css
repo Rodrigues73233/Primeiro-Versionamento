@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(/fundo.jpg);
+}
+
+.logo {
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.imagem-topo {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: left;
+  margin-top: 20px;
+  color: rgba(236, 232, 0, 0.959);
+  padding-left: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: top;
+  padding-left: 20px;
+  color: wheat;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.icone-jogador {
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 50px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  color: wheat;
+}
+
+.icones-campeoes {
+  display: inline-block;
+  border: 2px solid black;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: rgb(143, 0, 0);
+}
+
+.campeoes {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+a {
+  transition: filter .3s;
+}
+
+a:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
